@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\raw\\bee.mp3",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\raw\\bee.mp3"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\raw\\beep.ogg",
+        "source": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\exploded-aar\\bee\\BeeZXing\\unspecified\\res\\raw\\beep.ogg"
+    }
+]

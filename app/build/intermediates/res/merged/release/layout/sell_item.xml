@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:paddingLeft="@dimen/activity_orderdetail_default_left"
+        android:paddingBottom="@dimen/activity_orderdetail_default_top"
+        android:paddingTop="@dimen/activity_orderdetail_default_top"
+        android:textColor="@color/orderdetail_3"
+        android:text="@string/food_name_mark"
+        android:background="@drawable/order_detail_food"
+        android:textSize="@dimen/content" />
+
+    <TextView
+        android:id="@+id/food_sell_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:textColor="@color/orderdetail_3"
+        android:paddingBottom="@dimen/activity_orderdetail_default_top"
+        android:paddingTop="@dimen/activity_orderdetail_default_top"
+        android:text="@string/food_sell_price_mark"
+        android:background="@drawable/order_detail_food"
+        android:textSize="@dimen/content" />
+
+    <TextView
+        android:id="@+id/food_number"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:textColor="@color/orderdetail_3"
+        android:paddingBottom="@dimen/activity_orderdetail_default_top"
+        android:paddingTop="@dimen/activity_orderdetail_default_top"
+        android:text="@string/food_number_mark"
+        android:background="@drawable/order_detail_food"
+        android:textSize="@dimen/content" />
+
+    <TextView
+        android:id="@+id/food_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center_horizontal"
+        android:textColor="@color/orderdetail_3"
+        android:paddingBottom="@dimen/activity_orderdetail_default_top"
+        android:paddingTop="@dimen/activity_orderdetail_default_top"
+        android:text="@string/food_price_mark"
+        android:background="@drawable/order_detail_default"
+        android:textSize="@dimen/content" />
+
+</LinearLayout>

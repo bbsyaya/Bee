@@ -1,0 +1,34 @@
+# view AndroidManifest.xml #generated:52
+-keep class com.betterman.login.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.google.zxing.client.android.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.google.zxing.client.android.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.google.zxing.client.android.PreferencesActivity { <init>(...); }
+
+# view ldpi-v4\res/layout-ldpi-v4/capture.xml #generated:25
+# view res/layout/capture.xml #generated:25
+-keep class com.google.zxing.client.android.ViewfinderView { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.google.zxing.client.android.book.SearchBookContentsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.google.zxing.client.android.encode.EncodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.google.zxing.client.android.history.HistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.google.zxing.client.android.share.AppPickerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.google.zxing.client.android.share.BookmarkPickerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.google.zxing.client.android.share.ShareActivity { <init>(...); }
+

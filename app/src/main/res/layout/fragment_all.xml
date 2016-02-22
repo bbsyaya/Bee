@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_all"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="40dp"
+	    android:background="@color/bg"
+	    android:id="@+id/title">
+	    <TextView 
+	        android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/orders"
+    		android:textSize="@dimen/mark1"
+    		android:textColor="@color/logo_color"
+    		android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+	</RelativeLayout>
+    <com.lingshi321.bee.widget.RefreshableListView 
+        android:layout_below="@id/title"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/all_orders_rlv">
+        
+    </com.lingshi321.bee.widget.RefreshableListView>
+    <include layout="@layout/tip"/>
+</RelativeLayout>

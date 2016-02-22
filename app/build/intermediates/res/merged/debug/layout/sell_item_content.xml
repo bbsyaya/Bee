@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/edite_food_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:paddingLeft="@dimen/activity_orderdetail_default_left"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textColor="@color/orderdetail_3"
+        android:background="@drawable/order_detail_food"
+        android:textSize="@dimen/dialog_mark1"
+        android:text="@string/food_name_mark" />
+
+    <EditText
+        android:id="@+id/edite_food_number"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:background="@drawable/order_detail_default"
+        android:textSize="@dimen/dialog_mark1"
+        android:textColor="@color/orderdetail_3"
+        android:inputType="numberSigned"
+        android:text="0" />
+
+</LinearLayout>

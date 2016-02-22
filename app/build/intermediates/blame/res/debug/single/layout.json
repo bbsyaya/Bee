@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_item.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\order_item.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_info.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\fragment_user_info.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launch.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\activity_launch.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_detail.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\activity_order_detail.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\encode.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\exploded-aar\\bee\\BeeZXing\\unspecified\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reflashlist_foot.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\reflashlist_foot.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handing.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\fragment_handing.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reflashlist_header.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\reflashlist_header.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_dialog.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\login_dialog.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_not_deliver.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\fragment_not_deliver.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\fragment_all.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tip.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\tip.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_edite_selldetail.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\dialog_edite_selldetail.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sell_item.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\sell_item.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\exploded-aar\\bee\\BeeZXing\\unspecified\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sell_item_content.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\layout\\sell_item_content.xml"
+    }
+]

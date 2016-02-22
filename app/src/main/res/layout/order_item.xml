@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/order_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="8" >
+
+            <RelativeLayout
+                android:id="@+id/order_id_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/order_item_query_id_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_query_id_mark"
+                    android:textColor="@color/font_color2"
+                    android:textSize="@dimen/mark2" />
+
+                <TextView
+                    android:id="@+id/order_query_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/order_item_query_id_mark"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="CQUPT277061234fffffffffddddddfffffffff5"
+                    android:textColor="@color/font_color2"
+                    android:textSize="@dimen/mark2" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/address_phone_info"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/order_id_info"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" >
+
+                    <ImageView
+                        android:id="@+id/order_item_address_icon"
+                        android:layout_width="18dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/address" />
+
+                    <TextView
+                        android:id="@+id/order_item_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/order_item_address_icon"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="27栋706"
+                        android:textColor="@color/font_color2"
+                        android:textSize="@dimen/content" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/order_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/phone_pressed_selector"
+                    android:layout_weight="6" >
+
+                    <ImageView
+                        android:id="@+id/order_item_phone_icon"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/phone_icon" />
+
+                    <TextView
+                        android:id="@+id/order_item_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/order_item_phone_icon"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="13618260376"
+                        android:textColor="@color/font_color2"
+                        android:textSize="@dimen/content" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@id/address_phone_info"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" >
+
+                    <TextView
+                        android:id="@+id/order_item_price_mark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:text="@string/order_sellmoney_mark"
+                        android:textColor="@color/font_color2"
+                        android:textSize="@dimen/content" />
+
+                    <TextView
+                        android:id="@+id/order_item_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/order_item_price_mark"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="230元"
+                        android:textColor="@color/font_color2"
+                        android:textSize="@dimen/content" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6" >
+
+                    <TextView
+                        android:id="@+id/order_item_sendtime_mark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:text="@string/order_send_time_mark"
+                        android:textColor="@color/font_color2"
+                        android:textSize="@dimen/content" />
+
+                    <TextView
+                        android:id="@+id/order_item_send_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/order_item_sendtime_mark"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="12-25 23:12"
+                        android:textColor="@color/font_color2"
+                        android:textSize="@dimen/content" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/order_status_rl"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/logo_color"
+                android:layout_centerHorizontal="true"
+            	android:layout_centerInParent="true"
+            	android:layout_centerVertical="true" >
+
+                <TextView
+                    android:id="@+id/order_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/not_deliver"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/line_color" />
+
+</LinearLayout>

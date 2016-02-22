@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_handing"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<LinearLayout
+        android:id="@+id/handing_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:id="@+id/handing_delivering_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_weight="1" >
+            <TextView
+                android:id="@+id/handing_delivering_title_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+            	android:layout_centerHorizontal="true"
+            	android:layout_centerInParent="true"
+                android:textSize="@dimen/mark1"
+                android:textColor="@color/font_color3"
+                android:text="@string/delivering" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/handing_delivered_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_weight="1" >
+            <TextView
+                android:id="@+id/handing_delivered_title_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+            	android:layout_centerHorizontal="true"
+            	android:layout_centerInParent="true"
+            	android:textColor="@color/font_color3"
+                android:textSize="@dimen/mark1"
+                android:text="@string/delivered" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/handing_payed_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_weight="1" >
+			<TextView
+			    android:id="@+id/handing_payed_title_TV"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+            	android:layout_centerHorizontal="true"
+            	android:layout_centerInParent="true"
+            	android:textColor="@color/font_color3"
+	            android:textSize="@dimen/mark1"
+	            android:text="@string/payed" />
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+	
+	<RelativeLayout 
+	    android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/handing_title">
+        <com.lingshi321.bee.widget.RefreshableListView 
+            android:id="@+id/deliveringOrderRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+        </com.lingshi321.bee.widget.RefreshableListView>
+	    
+        <com.lingshi321.bee.widget.RefreshableListView 
+            android:id="@+id/deliveredOrderRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+        </com.lingshi321.bee.widget.RefreshableListView>
+        
+        <com.lingshi321.bee.widget.RefreshableListView 
+            android:id="@+id/payedOrderRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+        </com.lingshi321.bee.widget.RefreshableListView>
+        
+        <include layout="@layout/tip"/>
+	</RelativeLayout>
+    
+</RelativeLayout>

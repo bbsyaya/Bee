@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\right_arrow.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\right_arrow.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_icon.png",
+        "source": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\exploded-aar\\bee\\BeeZXing\\unspecified\\res\\drawable-hdpi-v4\\launcher_icon.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\upload_file.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\upload_file.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\password_icon.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\password_icon.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diagnose_all.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\diagnose_all.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orders_unpressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\orders_unpressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\information_pressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\information_pressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\handing_pressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\handing_pressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\not_deliver_pressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\not_deliver_pressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pressed_submit_bg.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\pressed_submit_bg.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\address.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\address.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\signal.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_icon.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\phone_icon.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orders_pressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\orders_pressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\information_unpressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\information_unpressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\border.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\border.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\not_deliver_unpressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\not_deliver_unpressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\handing_unpressed.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\handing_unpressed.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diagnose_part.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\diagnose_part.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\unpressed_submit_bg.xml",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\unpressed_submit_bg.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 每个选项卡显示的内容 -->
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_bar_line"
+        android:background="@color/white" >
+    </FrameLayout>
+
+    <!-- 底部内容 -->
+
+    <LinearLayout
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:id="@+id/not_deliver_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/not_deliver_iv"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/not_deliver_unpressed" />
+
+                <TextView
+                    android:id="@+id/not_deliver_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/not_deliver"
+                    android:textColor="@color/font_color3"
+                    android:textSize="@dimen/bottom_fontsize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/handing_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/handing_iv"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/handing_unpressed" />
+
+                <TextView
+                    android:id="@+id/handing_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/handing"
+                    android:textColor="@color/font_color3"
+                    android:textSize="@dimen/bottom_fontsize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/orders_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/orders_iv"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/orders_unpressed" />
+
+                <TextView
+                    android:id="@+id/orders_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/orders"
+                    android:textColor="@color/font_color3"
+                    android:textSize="@dimen/bottom_fontsize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/information_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/information_iv"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/information_unpressed" />
+
+                <TextView
+                    android:id="@+id/information_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/information"
+                    android:textColor="@color/font_color3"
+                    android:textSize="@dimen/bottom_fontsize" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <!-- 完美的分割线 -->
+	<View
+        android:id="@+id/tab_bar_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/line_color"
+        android:layout_above="@+id/tab_bar" />
+</RelativeLayout>

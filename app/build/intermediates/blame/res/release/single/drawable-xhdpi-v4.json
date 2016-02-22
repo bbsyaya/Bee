@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\back_press.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\back_press.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\launch.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\launch.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scanner.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\scanner.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\order_detail_food.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\order_detail_food.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\order_detail_sell_0.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\order_detail_sell_0.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\orderdetail_button.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\orderdetail_button.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\order_detail_sell_.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\order_detail_sell_.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\order_detail_default.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\order_detail_default.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\order_detail_top_right.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\order_detail_top_right.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\orderdetail_button_press.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\orderdetail_button_press.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\back.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\bee\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\order_detail_sell.9.png",
+        "source": "D:\\StudioProjects\\bee\\app\\src\\main\\res\\drawable-xhdpi\\order_detail_sell.9.png"
+    }
+]
